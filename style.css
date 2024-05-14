@@ -1,4 +1,78 @@
-header{
-    background-color: #424e61;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+.cabecalho-evelynn {
+    width: 50%;
+    
+}
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 104px;
+    font-size: 20px;
+}
+.personagem-imagem {
+    width: 15%;
+}
+.personagem {
+   background-image: linear-gradient(#000000,#565656); 
+   color: #b81414;
+   display: flex;
+   justify-content: center;
+   align-items: right;
+   padding: 1px 0px ;
+}
+.personagem-div-conteudo {
+    width: 55%;
+
+}
+.personagem-titulo {
+    padding: 24px 0;
+    font-size: 50px;
+}
+.skin-evelynn {
+    width: 200px;
+}
+.icone {
+  width: 24px;
+}
+.skin-div {
+    text-align: center;
+}
+.skin-titulo {
+    text-align: center;
+    padding: 50px 0;
+}
+.todas-skin {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.rodape {
+    background-color: #000000;
+    text-align: center;
+}
+.rodape-imagem {
+    height: 150px;
+    padding: 12px 0;
+}
+.skin {
+   background-image: linear-gradient(#565656,#000000); 
+   color: #b81414;
+}
+.personagem-tex1 {
+    font-size: 20px;
+}
+.personagem-tex2 {
+    font-size: 20px;
+}
+.personagem-tex3 {
+    font-size: 20px;
 }
